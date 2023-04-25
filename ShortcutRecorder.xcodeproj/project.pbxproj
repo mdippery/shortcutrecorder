@@ -151,7 +151,6 @@
 		9371C78E15167D2C008B7F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShortcutRecorder.strings; sourceTree = "<group>"; };
 		9371C79815167DE2008B7F36 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9371C79A15167DE2008B7F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9371C79C15167DE2008B7F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9371C7A015167DFD008B7F36 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9371C7A115167E03008B7F36 /* nl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9371C7A215167E06008B7F36 /* pl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -197,6 +196,7 @@
 		93F48AFB152C9D0300E271F9 /* ro */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ro; path = ro.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A1125B75104C8AF3005C6F7B /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKeyCodeTranslator.h; sourceTree = "<group>"; };
 		A1125B76104C8AF3005C6F7B /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKeyCodeTranslator.m; sourceTree = "<group>"; };
+		B7D8A63129F8497700347BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,15 +445,10 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShortcutRecorder" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
 				sv,
-				Dutch,
 				de,
 				en,
 				nl,
@@ -480,6 +475,7 @@
 				lv,
 				pt,
 				ca,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ShortcutRecorder */;
 			projectDirPath = "";
@@ -627,7 +623,6 @@
 		9371C79B15167DE2008B7F36 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9371C79C15167DE2008B7F36 /* en */,
 				9371C7AC15167E13008B7F36 /* de */,
 				9371C7AD15167E14008B7F36 /* nl */,
 				9371C7AE15167E15008B7F36 /* pl */,
@@ -645,6 +640,7 @@
 				9365EEFD152D4638002CBDEC /* th */,
 				834754EE1571D469005BCB89 /* es */,
 				834754F01571D46A005BCB89 /* es-MX */,
+				B7D8A63129F8497700347BB2 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
